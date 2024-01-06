@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+    margin: 0px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height: 100%;
+}
+.back{
+    position: absolute;
+    transform: translateZ(-40px) scale(05) ;
+}
+.front{
+    position: absolute;
+    transform: translateZ(-10px) scale(1.5);
+}
+h1{
+    position: absolute;
+    color: rgb(0, 212, 78);
+    font-family: 'Trebuchet MS';
+    scale: 07;
+    text-shadow: 5px 5px 10px rgb(0, 41, 31);
+    transform: translateZ(-20px) scale(03);
+}
+.midhead {
+    position: relative;
+    background-image: linear-gradient(#e66465,#9198e5);
+    padding: 60px;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight:bolder;
+}
+#content{
+    position: absolute;
+    transform-style: preserve-3d;
+    z-index: -1px;
+}
+.head1{
+    position: relative;
+    background-image: url(newimage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+    font-size:150px;
+    font-style: italic;
+}
+.para{
+    position: absolute;
+    top: 1590px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(#e66465,#9198e5);
+    padding: 60px;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight:bolder;
+}
+.head2{
+    position: relative;
+    top: 17rem;
+    background-image: url(https://wallpapercave.com/wp/wp9278418.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 450px;
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    font-style: italic;
+}
+.para1{
+    position: absolute;
+    top: 2320px;
+    background-image: linear-gradient(#e66465,#9198e5);
+    padding: 60px;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight:bolder;
+}
+.head3{
+    position: relative;
+    top: 48rem;
+    background-image: url(https://cdn.wallpapersafari.com/73/56/qZNKwm.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+    color: white;
+    font-size: 150px;
+    font-style: italic;
+    text-align: center;
+}
